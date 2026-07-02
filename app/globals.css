@@ -2,6 +2,38 @@
 
 @import "tailwindcss";
 
+@theme {
+  /* Custom Colors */
+  --color-green-50: #30AF5B;
+  --color-green-90: #292C27;
+  --color-gray-10: #EEEEEE;
+  --color-gray-20: #A2A2A2;
+  --color-gray-30: #7B7B7B;
+  --color-gray-50: #585858;
+  --color-gray-90: #141414;
+  --color-orange-50: #FF814C;
+  --color-blue-70: #021639;
+  --color-yellow-50: #FEC601;
+
+  /* Custom Background Images */
+  --background-image-bg-img-1: url('/img-1.png');
+  --background-image-bg-img-2: url('/img-2.png');
+  --background-image-feature-bg: url('/feature-bg.png');
+  --background-image-pattern: url('/pattern.png');
+  --background-image-pattern-2: url('/pattern-bg.png');
+
+  /* Custom Screens */
+  --breakpoint-xs: 400px;
+  --breakpoint-3xl: 1680px;
+  --breakpoint-4xl: 2200px;
+
+  /* Custom Max Width */
+  --width-10xl: 1512px;
+
+  /* Custom Border Radius */
+  --radius-5xl: 40px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -143,7 +175,7 @@ body {
 
   /* Get App */
   .get-app {
-    @apply max-container relative flex w-full flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
+    @apply mx-auto max-w-[1440px] relative flex w-full flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
   }
 }
 
