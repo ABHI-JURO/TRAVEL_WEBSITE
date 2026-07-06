@@ -44,6 +44,11 @@
   body {
     font-family: Inter;
   }
+
+  img {
+    height: auto;
+    width: auto;
+  }
 }
 
 @layer utilities {
@@ -162,7 +167,7 @@
 
   /* Hero */
   .hero-map {
-    @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
+    @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-35;
   }
 
   /* Camp */
