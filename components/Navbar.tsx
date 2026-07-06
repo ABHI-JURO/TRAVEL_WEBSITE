@@ -27,7 +27,7 @@ const Navbar = () => {
             </div>
 
             <Image
-                src="menu.svg"
+                src="/menu.svg"
                 alt="menu"
                 width={32}
                 height={32}
