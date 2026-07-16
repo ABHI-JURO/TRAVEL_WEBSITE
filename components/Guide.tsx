@@ -9,8 +9,8 @@ const Guide = () => {
                     we are here for you
                 </p>
                 <div className='flex flex-wrap justify-between gap-6 lg:gap-10'>
-                    <h2>Guide You Towards Your Destination With Ease</h2>
-                    <p>
+                    <h2 className='bold-50 lg:bold-64 xl:max-w-[390px]'>Guide You Towards Your Destination With Ease</h2>
+                    <p className='regular-16 text-gray-30 xl:max-w-[520px]'>
                         Only with the hilink application you will no longer get lost again, because we already support offline maps where there is no internet connection in the mountain and forest. Invite your friends and relatives to have fun in the wildreness through the valley and reach the top of the mountain.
                     </p>
                 </div>
