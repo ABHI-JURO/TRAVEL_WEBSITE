@@ -176,7 +176,7 @@
 
 /* Feature */
 @utility feature-phone {
-  @apply absolute top-[13%] z-10 hidden max-w-[1500px] rotate-[15deg] md:-left-16 lg:flex 3xl:left-20;
+  @apply absolute top-[13%] z-10 hidden w-full max-w-[340px] rotate-[15deg] md:left-0 lg:flex lg:max-w-[440px] 3xl:left-20;
 }
 
 /* Get App */
